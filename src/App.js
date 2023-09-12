@@ -6,16 +6,12 @@ function App() {
   return (
     <div className="App">
       <h1>Getting to know Ufak</h1>
-      <div className='main-div'>
-      <div className='about-con'>
-        <div className='Image-con'>
-          <img src={ufak} className='Ufak-image' alt="" />
-        </div>
+
+      <div className='intro'>
+        <img src={ufak} className='Ufak-image' alt="" />
+        <p>I'm Ufak, a front-end web developer, based in Lagos, Nigeria. My main job role, goal and passion is to solve problems and help bring ideas to reality through the web. I enjoy helping people and love collaborating with fellow developers to work on several projects. I value teamwork, easy to use content structure and thoughtful interactions.</p>
       </div>
-      
         
-        <p>Hi my name is Ufak</p>
-      </div>
     </div>
   );
 }
